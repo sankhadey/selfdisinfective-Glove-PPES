@@ -1,1 +1,53 @@
-# selfdisinfective-Glove-PPES
+#include<Servo.h>
+Servo servo1;
+void setup() 
+{
+   
+servo1.attach(6);   
+}
+void loop() 
+{  
+servo1.write(0);
+delay(200);
+servo1.write(100);
+delay(200);
+servo1.write(0);
+delay(200);
+servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(90);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(100);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(100);
+delay(200);
+servo1.write(0);
+delay(200);
+    servo1.write(100);
+delay(300);
+servo1.write(0);
+delay(300);
+    delay(10000);
+   } 
